@@ -1,2 +1,4 @@
-github.com/venraij/go-chocolatey v0.0.0-20230402180407-cf93c85b1a27 h1:pZB21+j1GYcT5qWw5M6lGF+Tcp1OITGbmrqrPa1u67k=
-github.com/venraij/go-chocolatey v0.0.0-20230402180407-cf93c85b1a27/go.mod h1:HSochorsdz5x5njl62wMO8GuCBjuOr5SuwO1XD4x1ac=
+github.com/venraij/go-chocolatey v1.0.6 h1:gRAfDoDTLeLlwPQp20nOzRqKcn08nxkNUM07bHYH3P4=
+github.com/venraij/go-chocolatey v1.0.6/go.mod h1:Ji5iUSVkeVeqnugxbh6ZwiHlHj2RX8vD1YmRP1yNm9Q=
+golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e h1:fLOSk5Q00efkSvAm+4xcoXD+RRmLmmulPn5I3Y9F2EM=
+golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=

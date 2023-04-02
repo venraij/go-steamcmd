@@ -1,8 +1,17 @@
-package windows
+package windowsos
 
-import "github.com/venraij/go-chocolatey"
+import (
+	"log"
+
+	"github.com/venraij/go-chocolatey"
+)
 
 func Install() {
-	chocolatey.Install()
+	chocoExists := chocolatey.IsInstalled()
+	if !chocoExists {
+		chocolatey.Install()
+	}
+
+	log.Println("Installing SteamCMD...")
 	chocolatey.InstallPackage("SteamCMD", "-y")
 }
