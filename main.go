@@ -1,4 +1,4 @@
-package main
+package steamcmd
 
 import (
 	"fmt"
@@ -13,10 +13,6 @@ import (
 	windowsos "github.com/venraij/go-steamcmd/Windows"
 	"golang.org/x/sys/windows"
 )
-
-func main() {
-	Install()
-}
 
 func Install() {
 	// Check if steamcmd is installed
